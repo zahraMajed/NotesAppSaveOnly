@@ -10,6 +10,7 @@
         android:id="@+id/rv_main"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        tools:listitem="@layout/item_view"
         app:layout_constraintBottom_toTopOf="@+id/LL1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +29,7 @@
         <EditText
             android:id="@+id/edNots"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="Enter note here"
@@ -38,8 +39,9 @@
         <Button
             android:id="@+id/btnSubmit"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:layout_weight="2"
+            android:backgroundTint="#D17E03"
             android:text="Submit" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
